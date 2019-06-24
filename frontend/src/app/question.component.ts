@@ -1,10 +1,12 @@
-import { Component } from '@angular/core'
+import { Component } from '@angular/core';
 
 @Component({
-    selector: 'question',
-    template: 'This is our question'
+  selector: 'question',
+  templateUrl: './question.component.html'
 })
 
 export class QuestionComponent {
-
+  post(question) {
+    console.log(question);
+  }
 }

@@ -1,0 +1,14 @@
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.deps.json
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.runtimeconfig.json
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.runtimeconfig.dev.json
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.dll
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.pdb
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.csproj.CoreCompileInputs.cache
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.RazorAssemblyInfo.cache
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.RazorAssemblyInfo.cs
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.AssemblyInfoInputs.cache
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.AssemblyInfo.cs
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.RazorTargetAssemblyInfo.cache
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.dll
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.pdb
+C:\Users\JackPC\Documents\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.csprojAssemblyReference.cache
