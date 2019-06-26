@@ -12,6 +12,6 @@ export class QuestionComponent {
     constructor(private api: ApiService) {}
 
     post(question) {
-        this.api.postQuestion(question)
+        this.api.postQuestion(question);
     }
 }
