@@ -35,8 +35,8 @@ namespace quiz_backend.Controllers
         [HttpPost]
         public void Post([FromBody] Models.Question question)
         {
-            _ = context.Questions.Add(new Models.Question() { Text = "test" });
-            _ = context.SaveChanges();
+            context.Questions.Add(question);
+            context.SaveChanges();
         }
 
 
