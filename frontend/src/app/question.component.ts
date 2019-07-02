@@ -5,6 +5,7 @@ import { ApiService } from './api.service'
     selector: 'question',
     templateUrl: './question.component.html'
 })
+
 export class QuestionComponent {
 
     question = {}
