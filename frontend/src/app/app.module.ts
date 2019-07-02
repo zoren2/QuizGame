@@ -28,6 +28,7 @@ import { QuestionsComponent } from './questions.component';
 import { HomeComponent } from './home.component';
 import { NavComponent } from './nav.component';
 import { QuizComponent } from './quiz.component';
+import { QuizzesComponent } from './quizzes.component';
 
 const routes = [
   { path: '', component: HomeComponent },
@@ -43,7 +44,8 @@ const routes = [
      QuestionsComponent, 
      NavComponent, 
      HomeComponent, 
-     QuizComponent
+     QuizComponent,
+     QuizzesComponent
   ],
   imports: [
     BrowserModule,

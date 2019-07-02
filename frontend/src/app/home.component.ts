@@ -1,7 +1,9 @@
 import { Component } from '@angular/core'
 
 @Component({
-  template: '<question></question><questions><questions>'
+  templateUrl: './home.component.html'
 })
 export class HomeComponent {
+  
 }
+
