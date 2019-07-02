@@ -12,23 +12,31 @@ export class ApiService {
 
     }
 
+    // Question Routes
     getQuestions(){
-        return this.http.get('http://localhost:63100/api/questions');
+        return this.http.get('https://localhost:44324/api/questions');
     }
 
     postQuestion(question){
-        this.http.post('http://localhost:63100/api/questions', question).subscribe(res => {
+        this.http.post('https://localhost:44324/api/questions', question).subscribe(res => {
             console.log(res);
         })
     }
 
     putQuestion(question) {
-        this.http.put(`http://localhost:63100/api/questions/${question.id}`, question).subscribe(res => {
+        this.http.put(`https://localhost:44324/api/questions/${question.id}`, question).subscribe(res => {
             console.log(res);
         }) 
     }
 
     selectQuestion(question) {
         this.selectedQuestion.next(question);
+    }
+
+    // Quiz Routes
+    postQuiz(quiz) {
+        this.http.post('https://localhost:44324/api/quizzes', quiz).subscribe(res => {
+            console.log(res);
+        })
     }
 }
