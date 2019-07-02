@@ -7,7 +7,16 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 
 // Angular Material
-import { MatButtonModule, MatInputModule, MatCardModule, MatListModule } from '@angular/material';
+import { 
+  MatButtonModule, 
+  MatInputModule, 
+  MatCardModule, 
+  MatListModule,
+  MatToolbarModule
+} from '@angular/material';
+
+// Router
+import { RouterModule } from '@angular/router';
 
 // Services
 import { ApiService } from './api.service';
@@ -16,10 +25,18 @@ import { ApiService } from './api.service';
 import { AppComponent } from './app.component';
 import { QuestionComponent } from './question.component';
 import { QuestionsComponent } from './questions.component';
+import { HomeComponent } from './home.component';
+import { NavComponent } from './nav.component';
+
+const routes = [
+  { path: '', component: HomeComponent },
+  { path: 'question', component: QuestionComponent },
+  { path: 'questions', component: QuestionsComponent }
+]
 
 @NgModule({
   declarations: [
-    AppComponent, QuestionComponent, QuestionsComponent
+    AppComponent, QuestionComponent, QuestionsComponent, NavComponent, HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +47,8 @@ import { QuestionsComponent } from './questions.component';
     MatInputModule,
     MatCardModule,
     MatListModule,
+    MatToolbarModule,
+    RouterModule.forRoot(routes),
     FormsModule
   ],
   providers: [ApiService],
